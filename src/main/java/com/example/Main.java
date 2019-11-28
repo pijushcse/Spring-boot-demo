@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Main {
  
 	public static void main(String[] args) {
+		Rox.setup("5de03af3676b362cfb74f712").get();
 		SpringApplication.run(Main.class, args);
 	}
  
